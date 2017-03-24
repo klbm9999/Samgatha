@@ -1,7 +1,7 @@
 <?php
   $dbhost="localhost";
-  $dbuser="samdata321";
-  $dbpass="Sama#$@1";
+  $dbuser="user";
+  $dbpass="pass";
 
   $retval = mysql_connect($dbhost,$dbuser,$dbpass);
   if(!$retval) {
